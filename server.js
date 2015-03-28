@@ -95,7 +95,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
 app.use(methodOverride());
 app.use(cookieParser());
-app.use(session({ secret: 'keyboard cat' }));
+app.use(session({ secret: 'good dreams' }));
 app.use(passport.initialize());
 app.use(passport.session());
 app.use(express.static(path.join(__dirname, 'public')));
@@ -186,7 +186,7 @@ io.sockets.on('connection', function(socket) {
 //        socket.broadcast.emit('onRecordCreated');
 //    });
 
-    <!-- insertion function   -->
+    // <!-- insertion function   -->
     app.post('/api/records', function(req, res, next) {
         var record = new Record({
             name:    		req.body.name,
@@ -208,7 +208,7 @@ io.sockets.on('connection', function(socket) {
         });
     });
 
-    <!-- other function coming soon -->
+    // <!-- other function coming soon -->
 
 
 });

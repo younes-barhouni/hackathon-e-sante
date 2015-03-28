@@ -1,0 +1,83 @@
+<div class="container">
+  <div class="panel panel-default">
+    <div class="panel-heading">DASHBOARD</div>
+    <div class="panel-body">
+        <div>
+            <h1>{{ records.length }}</h1>
+        </div>
+        <div id="dashboard" class="dashboard-sized-el" style="max-width: 950px; width: 950px; height: 752px;">
+            <article class="widget custom-widgets loaded" id="widget-14641713" style="top: 0px; left: 240px; width: auto;">
+                <div class="widget-inner  widget-size-1x1 large-screen">
+
+                    <header>
+                        <h1>HUMIDITY ACTUAL</h1>
+                    </header>
+
+
+                    <a class="led success" href="#"></a>
+
+                    <section class="widget-body geckometer-widget">
+                        <div class="widget-canvas">
+
+                            <div class="value t-size-x48">{{lastRecord.humidity}}</div>
+                            <!--<div class="scale">-->
+                                <!--<div class="pointer-canvas" style="left: 30px; bottom: -8px;">-->
+                                    <!--<img class="pointer" src="../css/img/gauge-pointer.png" style="-webkit-transform: rotate(-56deg);">-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <div class="min">
+                                <div class="t-size-x14 t-secondary">Minimum</div>
+                                <div class="t-size-x14 positive">0</div>
+                            </div>
+                            <div class="max">
+                                <div class="t-size-x14 t-secondary">Maximum</div>
+                                <div class="t-size-x14 negative">100</div>
+                            </div>
+                        </div>
+                        <!-- .widget-canvas -->
+                    </section>
+
+                </div>
+                <!-- .widget-inner -->
+
+            </article>
+            <article class="widget google-analytics loaded" id="widget-15165524" style="top: 0px; left: 0px; width: auto;">
+                <div class="widget-inner  widget-size-1x1 large-screen">
+
+                    <header>
+                        <h1>TEMPERATURE ACTUAL</h1>
+                    </header>
+
+                    <a class="led success" href="#"></a>
+
+                    <section class="widget-body number-widget">
+                        <div class="widget-canvas">
+
+                            <div class="main-stat t-size-x60">
+                                {{lastRecord.temperature}}<span>°<sup>C</sup></span>
+                            </div>
+                            <!-- <div class="temp-delta secondary-stat t-size-x48 ">
+                                <span>{{delta}}<sup></sup>
+                                </span>
+                            </div> -->
+                            <div>&nbsp</div>
+                            <div>&nbsp</div>
+                            <div>
+                                <span class="chart_temp"></span>
+                            </div>
+
+
+                        </div>
+                        <!-- .widget-canvas -->
+                    </section>
+                </div>
+                <!-- .widget-inner -->
+
+            </article>
+        </div>
+
+
+
+    </div>
+  </div>
+</div>

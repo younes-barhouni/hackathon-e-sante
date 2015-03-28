@@ -1,0 +1,29 @@
+<div class="jumbotron">
+  <div class="container">
+
+  </div>
+</div>
+
+<div class="container">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      {{headingTitle}}
+      <div class="pull-right">
+        <input class="search" type="text" ng-model="query.name" placeholder="Search...">
+      </div>
+    </div>
+    <div class="panel-body">
+      <div class="row show-list">
+        <div class="col-xs-4 col-md-3" ng-repeat="record in records | filter:query | orderBy:'rating':true">
+          <a href="/records/{{record._id}}">
+            <div class="img-rounded" ng-src="{{record.name}}" width="100%"></div>
+          </a>
+          <div class="text-center">
+            <a href="/records/{{record._id}}">{{record.date}}</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

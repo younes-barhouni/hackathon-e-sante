@@ -420,10 +420,10 @@ a
 	}
 	.navbar-brand-logo
 	{
-		height:20px;	
-		padding:15px 6px 15px 0px;
-		-moz-box-sizing: content-box;
-		box-sizing: content-box;
+		height: 40px;
+	  /* padding: 15px 6px 15px 0px; */
+	  -moz-box-sizing: content-box;
+	  box-sizing: content-box;
 	}
 	.navbar .btn
 	{

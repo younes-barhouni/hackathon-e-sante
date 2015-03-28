@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2012 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="infinity" unicode="&#xe801;" d="M796 570q84 0 144-53t60-167q0-112-60-166t-144-54q-78 0-157 40t-139 106q-58-66-137-106t-157-40q-86 0-146 54t-60 166q0 114 60 167t146 53q78 0 157-39t137-105q58 66 138 105t158 39z m-590-352q60 0 127 37t113 95q-46 58-112 95t-128 37q-114 0-114-132t114-132z m590 0q114 0 114 132t-114 132q-62 0-129-37t-111-95q44-58 111-95t129-37z" horiz-adv-x="1000" />
+<glyph glyph-name="play" unicode="&#xe802;" d="M486 376q14-10 14-26 0-14-14-24l-428-266q-24-16-41-6t-17 40l0 514q0 30 17 40t41-6z" horiz-adv-x="500" />
+<glyph glyph-name="play-1" unicode="&#xe805;" d="M18 797l670-446-670-447 0 893z" horiz-adv-x="705" />
+<glyph glyph-name="magic" unicode="&#xe804;" d="M664 526l163 163-60 60-163-163z m249 163q0-15-10-25l-718-718q-10-10-25-10t-25 10l-110 110q-10 10-10 25t10 25l718 718q10 10 25 10t25-10l110-110q10-10 10-25z m-754 106l55-17-55-17-17-55-17 55-55 17 55 17 17 55z m195-90l109-33-109-33-33-109-33 109-109 33 109 33 33 109z m519-267l55-17-55-17-17-55-17 55-55 17 55 17 17 55z m-357 357l55-17-55-17-17-55-17 55-55 17 55 17 17 55z" horiz-adv-x="928.571" />
+<glyph glyph-name="mobile" unicode="&#xe800;" d="M480 840q42 0 71-29t29-71l0-780q0-40-29-70t-71-30l-380 0q-40 0-70 30t-30 70l0 780q0 42 30 71t70 29l380 0z m-190-940q30 0 50 15t20 35q0 22-20 36t-50 14q-28 0-49-15t-21-35 21-35 49-15z m210 150l0 660-420 0 0-660 420 0z" horiz-adv-x="580" />
+<glyph glyph-name="rocket" unicode="&#xe803;" d="M543 236q6-50 8-81t-8-59-13-40-35-32-45-26-70-31-85-37q-32-12-45 4t-3 44l40 110-130 132-106-40q-28-12-43 2t-3 46q12 30 31 79t27 65 22 45 25 36 29 20 41 13l52 0t71-6q10 14 29 39t77 85 118 104 145 75 165 19q8 0 14-6 4-4 6-14 10-82-18-168t-76-151-98-118-86-81z m50 296q22-22 54-22t54 22q22 24 22 56t-22 56q-22 22-54 22t-54-22q-22-24-22-56t22-56z" horiz-adv-x="860" />
+</font>
+</defs>
+</svg>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.css" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <title>eDreams</title>
+    </head>
+    <body>
+
+        <div data-role="page">
+            <div data-role="header"><h1>eDreams</h1></div>
+            <div role="main" class="ui-content">
+                <ul id="listDevices" data-role="listview"></ul>
+
+                <span id="device"></span>
+
+                <button id="startDiscovery">startDiscovery</button>
+            </div>
+        </div>
+
+        <div id="devicePage" data-role="page">
+            <div data-role="header"><h1>BTBee Pro</h1></div>
+            <div role="main" class="ui-content">
+                <button id="connect">Connect</button>
+
+                <div id="onConnect" style="display: none;">
+                    <label for="ssid">WLAN SSID:</label>
+                    <input type="text" name="ssid" id="ssid">
+
+                    <label for="pass">WLAN PASS:</label>
+                    <input type="text" name="pass" id="pass">
+
+                    <label for="feed">FEED ID:</label>
+                    <input type="text" name="feed" id="feed">
+
+                    <button id="write">Write</button>
+                    <button id="disconnect">Disconnect</button>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile.js"></script>
+        <script type="text/javascript" src="js/blue.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>
